@@ -1,8 +1,7 @@
 ## My Resume
 
-Read resume data from a JSON file and generate a static web page. GitHub Pages support included.
-
-Written with Gulp, Less, and Jade.
+Read resume data from a JSON file .
+[resume online](https://raganyayoung.github.io/resume/)
 
 ## Build
 
