@@ -4,10 +4,10 @@
   "resume_title": "杨江 - 个人简历",
   "name": "杨江",
   "repo": "https://github.com/raganyaYoung/resume.git",
-  "job_description": ["前端工程师"],
+  "job_description": ["Web前端开发"],
   "contact": {
     "email": "raganyaYoung@163.com",
-    "phone": "13247768050",
+    "phone": "13058045084",
     "wechat": {
       "id": "well-young-jiang",
       "qrcode": "static/raganya.svg"
@@ -35,11 +35,11 @@
   "education": [{
     "type": "undergraduate",
     "name": "江西农业大学",
-    "major": "软件工程",
+    "major": "软件工程，英语",
     "start": "2012",
     "end": "2016",
     "honor": [
-      "2012 - 2013 学年度校**三等奖学金**",
+      "2012 - 2013 学年度校**二等奖学金**",
       "2013 - 2014 学年度校**二等奖学金**",
       "2014 - 2015 学年度校**三等奖学金**"
     ]
@@ -76,53 +76,56 @@
     }, {
       "summary": "前端工程实践",
       "description": [
-        "熟悉 `Vue` , 写过过个vue的ui组件，并阅读过vuex部分源码",
-        "使用 `ReactJs` 编写简单的SPA",
+        "使用 `React+Redux+Webpack` 编写SPA, 并阅读过redux源码",
+        "熟悉 `微信小程序`, 封装日常项目中使用广泛的组件",
+        "熟悉 `Vue` , 早期使用vue v1.x封装组件，并阅读过vuex部分源码",
         "熟悉 `jQuery` / `Bootstrap` 的使用、定制与扩展",
-        "在项目中使用过 `WebPack` 等多种模块化解决方案",
+        "熟悉 `SeaJs` / `TmodJs ` / `django` 的使用并维护CRM项目",
+        "熟悉 `Webpack3.0` 在项目中使用其打包兼管理任务流",
         "在项目中使用过 `Sass` 预处理/后处理工具",
-        "日常使用 `Git` 管理代码"
+        "日常使用 `Git` 管理代码",
+        "熟练使用 `Mac` / `Linux`等常规终端命令"
       ]
     }]
   }],
   "experience": [{
     "type": "internship",
     "techtype": "frontend",
-    "place": "智课网--批改网后台管理系统",
-    "start": "2016.07",
-    "end": "至今",
+    "place": "左邻--深业物业app",
+    "start": "2016.09",
+    "end": "2017.07",
     "name": "前端开发",
     "description": [
-      "使用`webpack`+`vue`开发，也是这个时候才开始发现vue开发让代码之优雅",
-      "同时也发现了vue的不足——生态,于是自己造轮子,pagination/datepicker/message/confirm/chart",
-      "这些均能在我的`github`中看到"
+      "使用`Webpack`+`React`+`Redux`开发，帮助解决园区物业管理问题",
+      "前端开发app，方便版本的迭代而不用更新整个app，提升用户体验",
+      "项目中业务模块不同则代码框架不同，所以一直致力于模块化开发，封装可复用性模块",
+      "app要求高度适配，常探索兼容不同型号的手机及IOS和Android之间的原生差别"
+    ],
+    "stack": ["react", "redux", "webpack"]
+  }, {
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "左邻--主栈CRM",
+    "start": "2016.09",
+    "end": "2017.07",
+    "name": "前端开发",
+    "description": [
+      "使用`SeaJs`+`TmodJs`+`React`+`Redux`开发，帮助管理深圳科技园/华润OE/深圳湾等园区",
+      "负责CRM的物业功能优化，并完成将部分SeaJs模块转向使用React开发的重构"
+    ],
+    "stack": ["SeaJs", "TmodJs", "React", "Redux", "Gulp", "Webpack", "ant-design"]
+  }, {
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "智课网--智课批改网及CRM",
+    "start": "2016.06",
+    "end": "2016.08",
+    "name": "前端开发",
+    "description": [
+      "使用`webpack`+`vue1.x`开发，vue开发让代码简洁，开发高效，速度快",
+      "批改网主要职责：1.独自搭建项目前端框架；2.将PSD稿转为html；3.熟悉后台NodeJs代码，请求接口，绑定页面数据及逻辑处理"
     ],
     "stack": ["vue", "webpack", "vue-router", "vuex"]
-  }, {
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "智课网--智课学习中心",
-    "start": "2016.07",
-    "end": "至今",
-    "name": "前端开发",
-    "description": [
-      "开始接触`react`, 使用`webpack`构建项目，使用react+`redux`+`ant design`开发页面"
-    ],
-    "stack": ["react", "redux", "webpack", "ant-design"],
-    "compatibility": "IE9+"
-  }, {
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "智课网--官网",
-    "start": "2015.12",
-    "end": "2016.07",
-    "name": "前端开发",
-    "description": [
-      "前期主要负责智课网pc端和移动端的专题页开发，主要职责：1.将PSD稿转为html；2.请求接口，绑定页面数据及逻辑处理",
-      "后期负责智课网主站后台，从开始进公司使用`bootstrap`+`jquery`，到后来经过自己的探索，使用`vue`处理数据逻辑"
-    ],
-    "stack": ["bootstrap", "jquery", "grunt", "less"],
-    "compatibility": "IE9+"
   }, {
     "type": "project",
     "techtype": "frontend",
@@ -131,8 +134,8 @@
     "source": "https://github.com/raganyaYoung/personal-site",
     "demo": "https://raganyayoung.github.io/personal-site/",
     "description": [
-      "使用bootstrap+jquery实现的个人网站，里面涉及多个前端常用组件——整屏切换、图片放大镜、跟随鼠标方向显示文字、瀑布流布局、轮播图等",
-      "自己平常开发后台系统比较多，通过这个项目，让自己css和前端交互设计能力有所加强"
+      "使用bootstrap+jquery实现的个人网站，里面涉及多个前端常用组件——整屏切换、图片放大镜、瀑布流布局等",
+      "通过这个项目，让自己css模块化开发和前端交互设计能力有所加强"
     ],
     "stack": ["jade", "less", "gulp"],
     "compatibility": "IE10+"
@@ -140,25 +143,25 @@
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "vue ui",
-    "source": "https://github.com/raganyaYoung/vue-ui",
+    "name": "微信小程序组件",
+    "source": "https://github.com/raganyaYoung/wxapp-ui",
     "description": [
-      "根据ant-design开发几个vue的ui组件——pagination/datepicker/modal/message/confirm/chart...",
-      "实现原理是用户提供的数据，组件负责处理数据，返回用户结果",
-      "通过这个项目，自己学习了怎么封装组件，实现组件化，同时对vue也有了更深的喜爱"
+      "炒鸡好看的小程序组件，可高度复用，兼容不同屏幕大小",
+      "项目基本涵盖日常小程序开发中常用的组件，可选Android和IOS的不同风格"
     ],
-    "stack": ["vue", "ui", "webpack"],
-    "compatibility": "IE9+"
+    "stack": ["微信小程序"],
+    "compatibility": "android/ios"
   }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "own lodash",
-    "source": "https://github.com/raganyaYoung/dadash",
+    "name": "vue ui",
+    "source": "https://github.com/raganyaYoung/vue-ui",
     "description": [
-      "为巩固js基础，自己看了点lodash，试着写了些有关array和object方法"
+      "丰富vue生态圈，支持i18n",
+      "实现原理是用户提供的数据，组件负责处理数据，返回用户结果"
     ],
-    "stack": ["lodash"],
-    "compatibility": "IE10+"
+    "stack": ["vue", "webpack", "i18n"],
+    "compatibility": "IE9+"
   }]
 }
