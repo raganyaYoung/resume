@@ -1,0 +1,167 @@
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "杨江 - 个人简历",
+  "name": "杨江",
+  "repo": "https://github.com/raganyaYoung/resume.git",
+  "job_description": ["Web前端开发"],
+  "contact": {
+    "email": "raganyaYoung@163.com",
+    "phone": "13058045084",
+    "wechat": {
+      "id": "well-young-jiang",
+      "qrcode": "static/raganya.svg"
+    },
+    "github": {
+      "id": "raganyaYoung"
+    },
+    "blog": {
+      "url": "https://segmentfault.com/u/raganya"
+    }
+  },
+  "links": [{
+    "type": "repo",
+    "url": "https://github.com/raganyaYoung/resume"
+  }, {
+    "type": "pdf",
+    "url": "static/raganya.pdf"
+  }, {
+    "type": "personal-site",
+    "url": "https://raganyayoung.github.io/personal-site"
+  }, {
+    "type": "segmentfault",
+    "url": "https://segmentfault.com/u/raganya"
+  }],
+  "education": [{
+    "type": "undergraduate",
+    "name": "江西农业大学",
+    "major": "软件工程，英语",
+    "start": "2012",
+    "end": "2016",
+    "honor": [
+      "2012 - 2013 学年度校**二等奖学金**",
+      "2013 - 2014 学年度校**二等奖学金**",
+      "2014 - 2015 学年度校**三等奖学金**"
+    ]
+  }],
+  "language": [{
+    "type": "english",
+    "certificate": [{
+      "type": "TEM-4",
+      "full": "100",
+      "score": "67"
+    }, {
+      "type": "CET-6",
+      "full": "710",
+      "score": "567"
+    }],
+    "description": [
+      "能流畅阅读英文文档及其他资料",
+      "能够在英文邮件列表、Stack Overflow 等社区正常交流"
+    ]
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`HTML` / `CSS`",
+      "description": [
+        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与动画",
+        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，实验项目中能尝试使用未广泛实现的新标准"
+      ]
+    }, {
+      "summary": "`ECMAScript`（`JavaScript`）",
+      "description": [
+        "了解 `ECMAScript` 新标准与相关后处理工具并能在项目中使用"
+      ]
+    }, {
+      "summary": "前端工程实践",
+      "description": [
+        "使用 `React+Redux+Webpack` 编写SPA, 并阅读过redux源码",
+        "熟悉 `微信小程序`, 封装日常项目中使用广泛的组件",
+        "熟悉 `Vue` , 早期使用vue v1.x封装组件，并阅读过vuex部分源码",
+        "熟悉 `jQuery` / `Bootstrap` 的使用、定制与扩展",
+        "熟悉 `SeaJs` / `TmodJs ` / `django` 的使用并维护CRM项目",
+        "熟悉 `Webpack3.0` 在项目中使用其打包兼管理任务流",
+        "在项目中使用过 `Sass` 预处理/后处理工具",
+        "日常使用 `Git` 管理代码",
+        "熟练使用 `Mac` / `Linux`等常规终端命令"
+      ]
+    }]
+  }],
+  "experience": [{
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "左邻--深业物业app",
+    "start": "2016.09",
+    "end": "2017.07",
+    "name": "前端开发",
+    "description": [
+      "使用`Webpack`+`React`+`Redux`开发，帮助解决园区物业管理问题",
+      "前端开发app，方便版本的迭代而不用更新整个app，提升用户体验",
+      "项目中业务模块不同则代码框架不同，所以一直致力于模块化开发，封装可复用性模块",
+      "app要求高度适配，常探索兼容不同型号的手机及IOS和Android之间的原生差别"
+    ],
+    "stack": ["react", "redux", "webpack"]
+  }, {
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "左邻--主栈CRM",
+    "start": "2016.09",
+    "end": "2017.07",
+    "name": "前端开发",
+    "description": [
+      "使用`SeaJs`+`TmodJs`+`React`+`Redux`开发，帮助管理深圳科技园/华润OE/深圳湾等园区",
+      "负责CRM的物业功能优化，并完成将部分SeaJs模块转向使用React开发的重构"
+    ],
+    "stack": ["SeaJs", "TmodJs", "React", "Redux", "Gulp", "Webpack", "ant-design"]
+  }, {
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "智课网--智课批改网及CRM",
+    "start": "2016.06",
+    "end": "2016.08",
+    "name": "前端开发",
+    "description": [
+      "使用`webpack`+`vue1.x`开发，vue开发让代码简洁，开发高效，速度快",
+      "批改网主要职责：1.独自搭建项目前端框架；2.将PSD稿转为html；3.熟悉后台NodeJs代码，请求接口，绑定页面数据及逻辑处理"
+    ],
+    "stack": ["vue", "webpack", "vue-router", "vuex"]
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "个人网站",
+    "source": "https://github.com/raganyaYoung/personal-site",
+    "demo": "https://raganyayoung.github.io/personal-site/",
+    "description": [
+      "使用bootstrap+jquery实现的个人网站，里面涉及多个前端常用组件——整屏切换、图片放大镜、瀑布流布局等",
+      "通过这个项目，让自己css模块化开发和前端交互设计能力有所加强"
+    ],
+    "stack": ["jade", "less", "gulp"],
+    "compatibility": "IE10+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "微信小程序组件",
+    "source": "https://github.com/raganyaYoung/wxapp-ui",
+    "description": [
+      "炒鸡好看的小程序组件，可高度复用，兼容不同屏幕大小",
+      "项目基本涵盖日常小程序开发中常用的组件，可选Android和IOS的不同风格"
+    ],
+    "stack": ["微信小程序"],
+    "compatibility": "android/ios"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "vue ui",
+    "source": "https://github.com/raganyaYoung/vue-ui",
+    "description": [
+      "丰富vue生态圈，支持i18n",
+      "实现原理是用户提供的数据，组件负责处理数据，返回用户结果"
+    ],
+    "stack": ["vue", "webpack", "i18n"],
+    "compatibility": "IE9+"
+  }]
+}
